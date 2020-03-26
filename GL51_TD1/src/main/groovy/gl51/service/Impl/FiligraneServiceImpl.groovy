@@ -2,6 +2,9 @@ package gl51.service.Impl
 
 import gl51.service.FiligraneService
 
+import javax.inject.Singleton
+
+@Singleton
 class PictureFiligraneServiceImpl implements FiligraneService {
 
     @Override

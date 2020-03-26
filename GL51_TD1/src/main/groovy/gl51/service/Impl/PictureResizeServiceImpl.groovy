@@ -4,8 +4,9 @@ import gl51.data.Picture
 import gl51.service.PictureResizeService
 import gl51.service.PictureService
 
+import javax.inject.Singleton
 
-
+@Singleton
 class PictureResizeServiceImpl implements PictureResizeService { //implement interface
 
     @Override
