@@ -6,7 +6,9 @@ import gl51.service.PictureDbUpdateService
 import gl51.service.PictureService
 
 
+import javax.inject.Singleton
 
+@Singleton
 class PictureDbUpdateServiceImpl implements PictureDbUpdateService{
 
 

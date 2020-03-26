@@ -5,7 +5,9 @@ import gl51.service.FiligraneService
 import gl51.service.PictureService
 import gl51.service.PictureThumbnailService
 
+import javax.inject.Singleton
 
+@Singleton
 class PictureThumbnailServiceImpl implements PictureThumbnailService{
 
     @Override
